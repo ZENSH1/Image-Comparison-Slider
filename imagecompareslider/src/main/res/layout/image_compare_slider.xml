@@ -61,7 +61,7 @@
         android:max="1000"
         android:paddingStart="0dp"
         android:paddingEnd="0dp"
-        android:progress="800"
+        android:progress="500"
         android:progressDrawable="@android:color/transparent"
         android:splitTrack="false"
         android:thumb="@android:color/transparent"
