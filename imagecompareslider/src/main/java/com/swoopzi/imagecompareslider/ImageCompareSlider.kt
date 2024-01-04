@@ -41,7 +41,7 @@ class ImageCompareSlider @JvmOverloads constructor(
         } finally {
             ta.recycle()
         }
-
+        sbImageSeek.setprogress(500,true)
         sbImageSeek.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, i: Int, b: Boolean) {
                 setImageWidth(i)
